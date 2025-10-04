@@ -67,7 +67,6 @@ iFM_preview/
 
  4. 核心逻辑一张图
 | 事件 | 实现位置 | 关键变量/函数 |
-||||
 | 登录/注册 | LoginActivity.kt | validateInput() + performLogin() |
 | 播客列表加载 | MainActivity.kt + PodcastViewModel.kt | loadPodcasts() + LiveData 观察 |
 | 上下滑动浏览 | RecyclerView 内置 | LinearLayoutManager + PodcastAdapter |
